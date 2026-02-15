@@ -1,98 +1,133 @@
-# Graduation-Project-Fortinet-DEPI
+🔐 FortiGate NGFW Security Implementation & SOC-Oriented Monitoring Project
 
-🔐 FortiGate Security Configuration & Monitoring Project
-
-🚀 Digital Egypt Pioneers Initiative (DEPI)
-Next-Generation Firewall (NGFW) Implementation & Monitoring Project
+Digital Egypt Pioneers Initiative (DEPI)
 
 📌 Project Overview
 
-This project was developed as part of the Digital Egypt Pioneers Initiative (DEPI) training program.
-The main objective was to design, configure, and monitor a complete security solution using Fortinet FortiGate Next-Generation Firewall.
+This project demonstrates hands-on experience in configuring and monitoring a Next-Generation Firewall (NGFW) using Fortinet FortiGate within a simulated enterprise environment.
 
-We implemented multiple security layers to simulate a real-world enterprise network protection environment.
+The focus was not only on firewall configuration, but also on building a security monitoring workflow aligned with SOC operations, including traffic inspection, threat detection, log analysis, and security event evaluation.
 
-🎯 Project Objectives
+🎯 SOC-Focused Objectives
 
-Configure a Next-Generation Firewall (NGFW)
+Implement layered network defense mechanisms
 
-Apply multi-layered security policies
+Configure and validate security policies
 
-Monitor traffic and threats in real time
+Enable deep traffic inspection
 
-Analyze logs and security events
+Monitor real-time network activity
 
-Improve teamwork and technical collaboration
+Analyze security logs for anomaly detection
 
-🛠 Technologies & Features Implemented
-1️⃣ Application Control
+Evaluate threat severity using risk-based scoring
 
-Controlled and filtered application traffic
+🏗 Enterprise Security Architecture
 
-Blocked unauthorized or risky applications
+The environment simulated a segmented enterprise network including:
 
-2️⃣ Web Filtering
+Internal LAN
 
-Restricted access to malicious and inappropriate websites
+External WAN
 
-Applied category-based filtering
+Security Zones
 
-3️⃣ Antivirus (Flow-Based Inspection)
+Policy-controlled traffic flow
 
-Enabled real-time malware detection
+Centralized logging and monitoring
 
-Scanned traffic dynamically without full buffering
+Network segmentation and access control were implemented following the least privilege principle to reduce attack surface exposure.
 
-4️⃣ Threat Weight & Logging
+🛡 Security Controls & Configurations
+🔹 Firewall Policy Management
 
-Monitored suspicious activities
+Created inbound/outbound access rules
 
-Generated and analyzed security logs
+Implemented zone-based traffic filtering
 
-Evaluated threat levels using threat scoring
+Validated rule effectiveness through traffic testing
 
-5️⃣ Firewall Policies
+Optimized policies to prevent over-permissive configurations
 
-Configured inbound and outbound rules
+🔹 Application Control
 
-Implemented least-privilege access model
+Identified application-layer traffic
 
-6️⃣ FortiView Monitoring
+Blocked high-risk and non-business applications
 
-Used FortiView dashboard for:
+Analyzed application behavior within logs
 
-Traffic analysis
+🔹 Web Filtering
 
-Threat visibility
+Applied category-based web filtering
 
-Application usage monitoring
+Prevented access to malicious domains
 
-Real-time insights
+Evaluated blocked events through log inspection
 
-🏗 Network Architecture
+🔹 Antivirus – Flow-Based Inspection
 
-The project simulates a secured enterprise environment with:
+Enabled real-time malware scanning
 
-Internal Network
+Inspected traffic without full proxy buffering
 
-WAN Connection
+Balanced performance and security visibility
 
-Security Policies between zones
+🔹 Threat Weight & Event Logging
+Monitored threat scores and severity levels
 
-Monitoring & Logging system
+Correlated suspicious events
 
-📊 Project Deliverables
+Investigated flagged activities
 
- Full Project Documentation (PDF):
+Reviewed attack attempts and blocked sessions
 
- Configured Security Policies
+🔎 Security Operations Skills Demonstrated
 
- Monitoring & Analysis Reports
+Log Analysis & Event Correlation
 
- Log Analysis Results
+Threat Detection & Alert Validation
 
- Key Learning Outcomes
- 
+Network Traffic Investigation
 
+Policy Optimization & Hardening
 
+Risk-Based Security Evaluation
 
+Real-Time Monitoring & Reporting
+
+📄 Deliverables
+
+Technical documentation
+
+Firewall configuration overview
+
+Security monitoring analysis
+
+Threat event evaluation report
+
+💡 Key Takeaways
+
+Practical exposure to enterprise firewall configuration
+
+Strong understanding of layered defense strategies
+
+Hands-on experience with monitoring dashboards and logs
+
+SOC-aligned approach to detection and investigation
+
+Improved analytical and incident evaluation mindset
+
+🔒 Conclusion
+
+This project reflects applied knowledge of network security monitoring using FortiGate NGFW, with a focus on SOC-relevant skills such as detection, analysis, and event investigation.
+
+It demonstrates readiness for entry-level SOC roles by combining technical configuration skills with practical monitoring and analytical capabilities.
+
+Monitored threat scores and severity levels
+
+Correlated suspicious events
+
+Investigated flagged activities
+
+Reviewed attack attempts and blocked sessions
